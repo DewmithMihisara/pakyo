@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Text?>
 <VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hcodeSolutions.controller.MainFormController" spacing="10" style="-fx-padding: 20;">
     <stylesheets>
-        <URL value="@style.css" />
+        <URL value="@../style.css" />
     </stylesheets>
 
     <Text text="Excel to SQL Generator" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
@@ -57,7 +57,7 @@
         <TextField fx:id="fileName" text="output.sql" prefWidth="200"/>
     </HBox>
 
-    <Button text="Generate SQL File" onAction="#handleGenerateSQL" style="-fx-base: #2196F3;" disable="${!generateButtonEnabled}"/>
+    <Button text="Generate SQL File" onAction="#handleGenerateSQL" style="-fx-base: #2196F3;" fx:id="generateButton"/>
 
     <Label fx:id="statusLabel" style="-fx-text-fill: #388E3C;"/>
 </VBox>
