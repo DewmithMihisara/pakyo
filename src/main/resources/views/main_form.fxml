@@ -14,7 +14,7 @@
         <URL value="@../style.css" />
     </stylesheets>
 
-    <Text text="Excel to SQL Generator" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
+    <Text text="PakYO - Excel to SQL Generator" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
 
     <Label text="1. Enter CREATE TABLE query:"/>
     <TextArea fx:id="createQueryText" promptText="Paste your CREATE TABLE query here" wrapText="true" prefHeight="100"/>
